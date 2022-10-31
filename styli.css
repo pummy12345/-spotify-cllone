@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&family=Fasthand&display=swap');
+body{
+    background-color: antiquewhite;
+    background-image: url(./red.jfif);
+      
+}
+*
+{
+    margin:0;
+    padding:0;
+}
+.brand img
+{  margin-top: 10px;
+    height:54px;
+    width:54px;
+
+}
+nav ul
+{
+    display:flex;
+    list-style-type: none;
+    height:65px;
+    background-color: black;
+    color:aqua;
+     font-family: 'Courier New', Courier, monospace;
+     margin-top: 0px;
+     align-items: center;
+     position:sticky;
+}
+.brand
+{
+    display:flex;
+    align-items: center;
+    color:white;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+     font-size: 1.5rem;
+       padding:0px 5px;
+    
+
+}
+nav ul li{
+    padding:0px 12px;
+
+}
+.container
+{
+    min-height:70vh;
+    background-color: black;
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    display:flex;
+    margin:23px auto;
+    width:70%;
+    border-radius: 25px;
+    padding: 12px;
+    background-image: url(bg3.jpg);
+}
+.bottom
+{
+    position: sticky;
+    height:80px;
+    background-color: black;
+    color:white;
+    bottom:0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+.icons
+{
+    margin-top: 12px;
+}
+.icons i
+{
+  cursor: pointer;
+}
+#myProgressBar
+{
+    width:80vw;
+    color: Blue;
+}
+.songListContainer
+{
+    margin-top: 30px;
+}
+.songItem
+{
+   height:50px;
+   display:flex;
+   background-color:aqua;
+   width:500px;
+   color:black;
+   margin:12px 0;
+   justify-content: space-between;
+   align-items: center;
+   border-radius: 23px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-weight: bolder;
+}
+.songItem img
+{
+    width:50px;
+    margin:0 3px;
+    border-radius: 12px;
+}
+.timestamp
+{
+    margin:0 23px;
+    cursor:pointer;
+}
+.songInfo img{
+    opacity:1;
+    transform: opacity 0.8s ease-in;
+}
+.songInfo
+{
+    position: absolute;
+    left:10vw;
+}
